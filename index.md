@@ -38,7 +38,7 @@ The first tab will be summary:
  
 The summary has a dropdown with the range to select:
 
-![](images/sumary1.png)
+![](images/sumary-dropdown.png)
   
 The second tab will be buildings:
 
