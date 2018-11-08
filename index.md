@@ -28,6 +28,47 @@ Demo: [nana-ikehu.powerclique.com](https://nana-ikehu.powerclique.com)
 ## What it does
 This app visualizes energy usage throughout the University of Hawaii campus through the use of graphs and maps.  Users are able to see the amount of energy used for each building by either clicking a building on the campus map, or by selecting a building through the drop down menu.
 
+When you come to the site, you are greeted by the following landing page:
+
+![](images/landing.png)
+
+The first tab will be summary:
+ 
+![](images/summary.png)
+ 
+The summary has a dropdown with the range to select:
+
+![](images/summary1.png)
+  
+The second tab will be buildings:
+
+![](images/building.png)
+
+The building has two dropdowns, the first dropdown is the selection of buildings:
+
+![](images/building1.png)
+
+The second dropdown is the selection of meter ID:
+
+![](images/building3.png)
+
+when we selected building and meter ID a graph will be render:
+
+![](images/building2.png)
+
+The third tab will be map:
+
+![](images/map.png)
+
+When selecting a building on the map,a pop up will appear with a link to building tab:
+
+![](images/map1.png)
+
+When the link is clicked, it will switch to the building tab with the selected building ID. The graph will show the data of the seleted building:
+
+![](images/maplink.png)
+
+
 ## Configuration
 
 Raw database files from Aurora BPA MS-SQL can be exported to CSV for import into this application. Three files must be placed in `app/private/files` before deploying.
