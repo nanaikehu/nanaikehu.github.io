@@ -34,11 +34,11 @@ When you come to the site, you are greeted by the following landing page:
 
 The first tab will be summary:
  
-![](images/summary.png)
+![](images/sumary.png)
  
 The summary has a dropdown with the range to select:
 
-![](images/summary1.png)
+![](images/sumary1.png)
   
 The second tab will be buildings:
 
