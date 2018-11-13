@@ -18,7 +18,7 @@
 # About Nana Ikehu 
 
 Nānā Ikehu
-> Nānā: To see, observe, or inspect
+> Nānā: To see, observe, or inspect        
 > Ikehu: Power, intensity, or energy
 
 Welcome to Nānā Ikehu (Seeing Power) [Meteor/React application](http://ics-software-engineering.github.io/meteor-application-template-react/) to analyze power usage data, designed for the [University of Hawaii at Manoa](https://manoa.hawaii.edu/) as part of the [Hawaii Annual Code Challenge 2018](http://hacc.hawaii.gov/)
