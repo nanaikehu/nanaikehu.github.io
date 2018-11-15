@@ -23,7 +23,10 @@ Nānā Ikehu
 
 Welcome to Nānā Ikehu (Seeing Power) [Meteor/React application](http://ics-software-engineering.github.io/meteor-application-template-react/) to analyze power usage data, designed for the [University of Hawaii at Manoa](https://manoa.hawaii.edu/) as part of the [Hawaii Annual Code Challenge 2018](http://hacc.hawaii.gov/)
 
-Demo: [nanaikehu.meteorapp.com](http://nanaikehu.meteorapp.com/#/)
+Demo: [nanaikehu.meteorapp.com](http://nanaikehu.meteorapp.com/#/)    
+Mile Stones:     
+  [M1](https://github.com/nanaikehu/Nana-Ikehu/projects/1)
+  [M2](https://github.com/nanaikehu/Nana-Ikehu/projects/2)
 
 ## What it does
 This app visualizes energy usage throughout the University of Hawaii campus through the use of graphs and maps.  Users are able to see the amount of energy used for each building by either clicking a building on the campus map, or by selecting a building through the drop down menu.
