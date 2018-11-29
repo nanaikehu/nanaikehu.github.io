@@ -27,11 +27,11 @@ Welcome to Nānā Ikehu (Seeing Power) [Meteor/React application](http://ics-sof
 
 Demo: [nanaikehu.meteorapp.com](http://nanaikehu.meteorapp.com/#/)    
 Mile Stones:     
-  [Mile Stone 1](https://github.com/nanaikehu/Nana-Ikehu/projects/1)
+  [Mile Stone 1](https://github.com/nanaikehu/Nana-Ikehu/projects/1)    
   [Mile Stone 2](https://github.com/nanaikehu/Nana-Ikehu/projects/2)              
   [Mile Stone 3](https://github.com/nanaikehu/Nana-Ikehu/projects/4)
 
-## What it does
+## User Guide
 This app visualizes energy usage throughout the University of Hawaii campus through the use of graphs and maps.  Users are able to see the amount of energy used for each building by either clicking a building on the campus map, or by selecting a building through the drop down menu.
 
 When you come to the site, you are greeted by the following landing page:
