@@ -1,8 +1,8 @@
 # Table of contents
 
 * [About Nānā Ikehu](#about-nanaikehu)
+  * [User Guide](#user-guide)
   * [Developer Guide](#developer-guide)
-    * [What it does](#what-it-does)
     * [Installation](#installation)
     * [Configuration](#configuration)
       * [export.csv - Raw data](#export.csv-raw-data)
