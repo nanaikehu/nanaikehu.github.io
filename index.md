@@ -2,6 +2,7 @@
 
 * [About Nānā Ikehu](#about-nanaikehu)
   * [What it does](#what-it-does)
+  * [Installation](#installation)
   * [Configuration](#configuration)
     * [export.csv - Raw data](#export.csv-raw-data)
     * [BuildingList.csv - Building configuration](#building-configuration)
@@ -72,6 +73,13 @@ When the link is clicked, it will switch to the building tab with the selected b
 
 ![](images/m2_maplink.png)
 
+## Installation
+
+1. Install [Meteor](https://www.meteor.com/install)
+2. Clone or download a copy of [Nānā Ikehu](https://github.com/nanaikehu/Nana-Ikehu)
+3. cd into the /app directory and run `meteor npm install`
+4. Type `meteor npm run start` to start the application.
+5. Open a browser and proceed to [localhost:3000](http://localhost:3000) to view the application.
 
 ## Configuration
 
