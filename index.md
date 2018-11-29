@@ -36,19 +36,19 @@ When you come to the site, you are greeted by the following landing page:
 
 ![](images/m2_landing.png)
 
-The first tab will be summary:
+The first tab will be the "Summary" tab:
  
 ![](images/m2_summary.png)
  
-The summary has a dropdown with the range to select:
+The summary has a dropdown which allow users to view data within a certain range:
 
 ![](images/m2_sumary-dropdown.png)
   
-The second tab will be buildings:
+The second tab is the "Buildings" tab:
 
 ![](images/m2_building.png)
 
-The building has two dropdowns, the first dropdown is the selection of buildings:
+The building section has two dropdowns. The first dropdown allows users to select a building:
 
 ![](images/m2_building1.png)
 
@@ -56,15 +56,15 @@ The second dropdown is the selection of meter ID:
 
 ![](images/m2_building2.png)
 
-when we selected building and meter ID a graph will be render:
+When we select a building and meter ID, a graph will be render:
 
 ![](images/m2_building3.png)
 
-The third tab will be map:
+The third tab is the "Map" tab:
 
 ![](images/m2_map.png)
 
-When selecting a building on the map,a pop up will appear with a link to building tab:
+When selecting a building on the map, a pop up will appear with a link to building tab:
 
 ![](images/m2_map1.png)
 
