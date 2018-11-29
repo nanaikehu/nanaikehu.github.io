@@ -54,11 +54,11 @@ The building has two dropdowns, the first dropdown is the selection of buildings
 
 The second dropdown is the selection of meter ID:
 
-![](images/m2_building3.png)
+![](images/m2_building2.png)
 
 when we selected building and meter ID a graph will be render:
 
-![](images/m2_building2.png)
+![](images/m2_building3.png)
 
 The third tab will be map:
 
