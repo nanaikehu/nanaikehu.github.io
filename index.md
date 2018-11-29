@@ -33,43 +33,43 @@ This app visualizes energy usage throughout the University of Hawaii campus thro
 
 When you come to the site, you are greeted by the following landing page:
 
-![](images/landing.png)
+![](images/m2_landing.png)
 
 The first tab will be summary:
  
-![](images/sumary.png)
+![](images/m2_summary.png)
  
 The summary has a dropdown with the range to select:
 
-![](images/sumary-dropdown.png)
+![](images/m2_sumary-dropdown.png)
   
 The second tab will be buildings:
 
-![](images/building.png)
+![](images/m2_building.png)
 
 The building has two dropdowns, the first dropdown is the selection of buildings:
 
-![](images/building1.png)
+![](images/m2_building1.png)
 
 The second dropdown is the selection of meter ID:
 
-![](images/building3.png)
+![](images/m2_building3.png)
 
 when we selected building and meter ID a graph will be render:
 
-![](images/building2.png)
+![](images/m2_building2.png)
 
 The third tab will be map:
 
-![](images/map.png)
+![](images/m2_map.png)
 
 When selecting a building on the map,a pop up will appear with a link to building tab:
 
-![](images/map1.png)
+![](images/m2_map1.png)
 
 When the link is clicked, it will switch to the building tab with the selected building ID. The graph will show the data of the seleted building:
 
-![](images/maplink.png)
+![](images/m2_maplink.png)
 
 
 ## Configuration
