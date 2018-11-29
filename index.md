@@ -1,13 +1,14 @@
 # Table of contents
 
 * [About Nānā Ikehu](#about-nanaikehu)
-  * [What it does](#what-it-does)
-  * [Installation](#installation)
-  * [Configuration](#configuration)
-    * [export.csv - Raw data](#export.csv-raw-data)
-    * [BuildingList.csv - Building configuration](#building-configuration)
-    * [TagIds.csv - Meter configuration](#meter-configuration)
-  * [Deployment](#deployment)
+  * [Developer Guide](#developer-guide)
+    * [What it does](#what-it-does)
+    * [Installation](#installation)
+    * [Configuration](#configuration)
+      * [export.csv - Raw data](#export.csv-raw-data)
+      * [BuildingList.csv - Building configuration](#building-configuration)
+      * [TagIds.csv - Meter configuration](#meter-configuration)
+    * [Deployment](#deployment)
   * [How we built it](#how-we-built-it)
   * [Challenges we ran into](#challenges)
   * [What we learned](#what-we-learned)
@@ -26,7 +27,7 @@ Welcome to Nānā Ikehu (Seeing Power) [Meteor/React application](http://ics-sof
 
 Demo: [nanaikehu.meteorapp.com](http://nanaikehu.meteorapp.com/#/)    
 Mile Stones:     
-  [Mile Stone 1](https://github.com/nanaikehu/Nana-Ikehu/projects/1)     
+  [Mile Stone 1](https://github.com/nanaikehu/Nana-Ikehu/projects/1)
   [Mile Stone 2](https://github.com/nanaikehu/Nana-Ikehu/projects/2)              
   [Mile Stone 3](https://github.com/nanaikehu/Nana-Ikehu/projects/4)
 
@@ -72,8 +73,9 @@ When selecting a building on the map, a pop up will appear with a link to buildi
 When the link is clicked, it will switch to the building tab with the selected building ID. The graph will show the data of the seleted building:
 
 ![](images/m2_maplink.png)
+## Developer Guide
 
-## Installation
+### Installation
 
 1. Install [Meteor](https://www.meteor.com/install)
 2. Clone or download a copy of [Nānā Ikehu](https://github.com/nanaikehu/Nana-Ikehu)
@@ -81,11 +83,11 @@ When the link is clicked, it will switch to the building tab with the selected b
 4. Type `meteor npm run start` to start the application.
 5. Open a browser and proceed to [localhost:3000](http://localhost:3000) to view the application.
 
-## Configuration
+### Configuration
 
 Raw database files from Aurora BPA MS-SQL can be exported to CSV for import into this application. Three files must be placed in `app/private/files` before deploying.
 
-### export.csv - Raw data
+#### export.csv - Raw data
 `SampleTsUtc` is a timestamp, we do our best to parse any given format
 `TagLogId` matches a meter tag
 `Mean` is the main measurement used for display
@@ -108,18 +110,18 @@ This file can be automatically generated using Aurora BPA MS-SQL with this sampl
 This query will select needed header fields, reconcile DayId and TimeId values from the Extension table, then filter out high quality power data
 
 
-### BuildingList.csv - Building configuration
+#### BuildingList.csv - Building configuration
 Column 1 supplies a unique tag or identifier for a building
 Column 2 is a friendly name for a building
 Columns 3,4,5 supply gross square footage, floor count, and room count for the building
-### TagIds.csv - Meter configuration
+#### TagIds.csv - Meter configuration
 `BuildingName` is a column that matches a building Name
 `EntityName` is a column that supplies a name for a meter
 `TagLogId` is a column that matches the a meter's tag in the raw data
 `TagName` contains that meter's unit of measurement
 
 
-## Deployment
+### Deployment
 
 If you are not familiar with Meteor it is recommended that you [Galaxy or mup](https://guide.meteor.com/deployment.html#galaxy) to deploy this application.
 
