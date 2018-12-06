@@ -44,7 +44,7 @@ The first tab will be the "Summary" tab:
  
 The summary has a dropdown which allow users to view data within a certain range:
 
-![](images/m3_sumary-dropdown.png)
+![](images/m3_summary-dropdown.png)
   
 The second tab is the "Buildings" tab:
 
