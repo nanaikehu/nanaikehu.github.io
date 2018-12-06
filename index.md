@@ -25,7 +25,7 @@ Nānā Ikehu
 
 Welcome to Nānā Ikehu (Seeing Power) [Meteor/React application](http://ics-software-engineering.github.io/meteor-application-template-react/) to analyze power usage data, designed for the [University of Hawaii at Manoa](https://manoa.hawaii.edu/) as part of the [Hawaii Annual Code Challenge 2018](http://hacc.hawaii.gov/)
 
-Demo: [nanaikehu.meteorapp.com](http://nanaikehu.meteorapp.com/#/)    
+Demo: [http://nanaikehu1.meteorapp.com](http://nanaikehu1.meteorapp.com/#/)    
 Mile Stones:     
   [Mile Stone 1](https://github.com/nanaikehu/Nana-Ikehu/projects/1)    
   [Mile Stone 2](https://github.com/nanaikehu/Nana-Ikehu/projects/2)              
